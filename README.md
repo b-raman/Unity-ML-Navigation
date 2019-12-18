@@ -8,9 +8,9 @@ For this project, the agent will be navigating a walled-in plane scattered with 
 If the agent reaches a yellow banana, it will recieve a reward of +1. If it reaches a blue banana, it will recieve a reward of -1. The goal of this project is to get the agent to attain a net-reward of at leat +13 by the end of an episode. The process to achieve this is discussed in detail in the report and notebook.
 
 ### Included Files
-    Navigation.ipynb
-    checkpoint.pth
-    Report.pdf
+    Navigation.ipynb - All code for this project is in the notebook
+    checkpoint.pth   - Contains saved weights for the best model
+    Report.pdf       - Detailed report of the project
     README.md
 
 ### Dependencies
