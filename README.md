@@ -1,15 +1,21 @@
-# Navigation Project README - Bharat Raman
+# Navigation Project - Bharat Raman
+## Deep Reinforcement Learning Nanodegree, Udacity
 
-## Included Files
+For this project, the agent will be navigating a walled-in plane scattered with yellow and blue bananas. For each time-step:
+- A state consists of 37 elements, which represent the agent's velocity and its ray-based perception of objects around its forward direction.
+- There are 4 possible actions: Move forward, move backward, turn left, turn right
+
+If the agent reaches a yellow banana, it will recieve a reward of +1. If it reaches a blue banana, it will recieve a reward of -1. The goal of this project is to get the agent to attain a net-reward of at leat +13 by the end of an episode. The process to achieve this is discussed in detail in the report and notebook.
+
+### Included Files
     Navigation.ipynb
-    Banana.zip (for mac osx)
     checkpoint.pth
     Report.pdf
     README.md
 
-## Dependencies
+### Dependencies
 Follow the dependencies setup provied in [Udacity's Deep RL repository][unity]
-## Modules used:
+### Modules used:
     UnityEnvironment from unityagents - For the environment from Unity ML-Agents
     numpy - for various array/math operations
     random - For sampling batches from experience tuples
@@ -20,7 +26,7 @@ Follow the dependencies setup provied in [Udacity's Deep RL repository][unity]
      - torch.optim - optimizer for establishing weights/biases for layers
     matplotlib.pyplot - plotting scores per episode after training
 
-## References
+### References
 - [Udacity Deep learning repository][unity]
 - [DQN Paper][dqn]
 - [Double DQN Paper][double]
@@ -38,4 +44,3 @@ Follow the dependencies setup provied in [Udacity's Deep RL repository][unity]
    [dueling]: <https://arxiv.org/abs/1511.06581>
    [ud]: <https://github.com/udacity/sagemaker-deployment/tree/master/Tutorials>
    [k3]: <https://www.kaggle.com/ash316/what-s-my-score>
-   
