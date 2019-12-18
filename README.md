@@ -11,6 +11,7 @@ If the agent reaches a yellow banana, it will recieve a reward of +1. If it reac
     Navigation.ipynb - All code for this project is in the notebook
     checkpoint.pth   - Contains saved weights for the best model
     Report.pdf       - Detailed report of the project
+    Banana.zip       - Unity environment (Mac OSX version)
     README.md
 
 ### Dependencies
