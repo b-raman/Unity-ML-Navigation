@@ -2,7 +2,7 @@
 
 ## Included Files
     Navigation.ipynb
-    Banana.app
+    Banana.zip (for mac osx)
     checkpoint.pth
     Report.pdf
     README.md
